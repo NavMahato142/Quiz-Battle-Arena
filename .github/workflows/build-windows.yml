@@ -1,0 +1,32 @@
+name: Build Windows EXE
+
+on:
+  push:
+    paths:
+      - 'main.cpp'
+      - 'questions.txt'
+      - '.github/workflows/build-windows.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build Quiz Battle Arena
+        shell: pwsh
+        run: g++ -std=c++11 -O2 -Wall -Wextra -pedantic main.cpp -o QuizBattle.exe
+      - name: Include game files
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path release | Out-Null
+          Copy-Item QuizBattle.exe release/
+          Copy-Item questions.txt release/
+          Copy-Item README.md release/
+      - name: Upload Windows build
+        uses: actions/upload-artifact@v4
+        with:
+          name: Quiz-Battle-Arena-Windows
+          path: release/
+          if-no-files-found: error
