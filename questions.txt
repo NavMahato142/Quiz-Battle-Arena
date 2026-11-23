@@ -1,0 +1,20 @@
+Which data structure follows FIFO order?|Stack|Queue|Tree|Graph|B|DSA|Easy
+Average time complexity of binary search on a sorted array?|O(n)|O(log n)|O(n log n)|O(1)|B|Searching|Easy
+Which data structure follows LIFO order?|Queue|Array|Stack|Linked list|C|DSA|Easy
+Which sorting algorithm repeatedly selects the smallest remaining element?|Merge sort|Selection sort|Quick sort|Heap sort|B|Sorting|Medium
+Which traversal of a binary search tree gives sorted order?|Preorder|Postorder|Inorder|Level order|C|Trees|Medium
+Which of these is a linear data structure?|Graph|Tree|Queue|Heap|C|DSA|Easy
+Worst-case time complexity of linear search?|O(1)|O(log n)|O(n)|O(n log n)|C|Searching|Easy
+Which technique does merge sort use?|Greedy|Divide and conquer|Backtracking|Dynamic programming|B|Sorting|Medium
+Which STL container is commonly used for FIFO?|stack|queue|set|map|B|C++ STL|Medium
+In a max-heap, which element is at the top?|Smallest|Largest|Oldest|Newest|B|Heap|Medium
+Which graph traversal typically uses a queue?|DFS|BFS|Inorder|Binary search|B|Graphs|Medium
+Average lookup complexity of unordered_map?|O(n)|O(log n)|O(1)|O(n log n)|C|C++ STL|Medium
+Which pointer marks the end of a singly linked list?|Head|Null next pointer|Middle|Root|B|Linked list|Easy
+Which operation removes the top item from a stack?|Enqueue|Dequeue|Pop|Front|C|Stack|Easy
+Time complexity of comparison-based merge sort?|O(n)|O(log n)|O(n log n)|O(n^2)|C|Sorting|Medium
+Which structure is suited to a priority-based leaderboard?|Simple queue|Priority queue|Stack|Array only|B|C++ STL|Medium
+Which is not a standard asymptotic notation?|Big-O|Big-Omega|Big-Theta|Big-Delta|D|Analysis|Medium
+In an undirected graph, an edge connects:|A vertex to itself only|Two vertices|Only the root|Two arrays|B|Graphs|Easy
+Which C++ feature groups data and member functions?|Namespace|Class|Macro|Header|B|C++|Easy
+Which data structure manages function calls?|Queue|Stack|Graph|Hash table|B|DSA|Medium
