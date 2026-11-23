@@ -119,7 +119,7 @@ void askQuestion(const Question& q,Player& p,int& lifeline,int number) {
             vector<char> wrong;
             for(char c='A';c<='D';++c) if(c!=q.correct) wrong.push_back(c);
             random_device rd; mt19937 gen(rd()); shuffle(wrong.begin(),wrong.end(),gen);
-            allowed={q.correct,wrong[0],wrong[1]};
+            allowed={q.correct,wrong[0]};
             sort(allowed.begin(),allowed.end());
             cout<<"50-50: remaining options are ";
             for(char c:allowed) cout<<c<<" ";
