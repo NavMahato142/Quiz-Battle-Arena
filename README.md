@@ -44,3 +44,7 @@ Correct letter must be `A`, `B`, `C`, or `D`. Avoid using `|` inside a field.
 
 ## Project scope
 This is a console-based academic DSA mini-project. Timer, GUI, online multiplayer, and database features are intentionally outside the current version.
+
+It's is Team Project 
+Members Name - Nav Kumar Mahato, Md Saklain Shahid, Paras , Himanshu Kumar 
+Roll no - 2546184, 2546170, 2546195, 2546128
